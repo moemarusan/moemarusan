@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p className="style_l">Hello,</p>
+      <p className="style_l2">I'm Moena Saiki.</p>
+      <p className="style_s fs">a.k.a moemaru. I'm media sales rep and greeny engineer. いつもねむい</p>
+      <nav className="social">
+        <a className="style_s2" href="https://twitter.com/moemarusan">Twitter</a><br/>
+        <a className="style_s2" href="https://facebook.com/moemarusan">Facebook</a><br/>
+        <a className="style_s2" href="https://kuromimi.moemarusan.com">Blog</a><br/>
+      </nav>
     </div>
   );
 }
