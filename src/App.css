@@ -34,15 +34,26 @@ p {
     text-transform: uppercase;
     padding-top: 0.12em;
     color: #000;
-    text-decoration: underline;
-    text-decoration-color: #e0245e;
     font-size: 1.75rem;
+    position: relative;
+    text-decoration: none;
 }
 
 .style_s2::before {
     display: block;
     content: "";
     margin-top: 1rem;
+}
+
+.style_s2::after {
+    position: absolute;
+    border: 0.25rem solid #e0245e;
+    content: "";
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    box-sizing: border-box;
 }
 
 .style_s2:hover {
