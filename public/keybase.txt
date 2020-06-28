@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/moemarusan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://moemarusan.com
+  * I am moemarusan (https://keybase.io/moemarusan) on keybase.
+  * I have a public key ASDVHFzDKSsn6cNKzVrHJchtN2vG6elXWQS0ecQgl1rtrQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d51c5cc3292b27e9c34acd5ac725c86d376bc6e9e9575904b479c420975aedad0a",
+      "host": "keybase.io",
+      "kid": "0120d51c5cc3292b27e9c34acd5ac725c86d376bc6e9e9575904b479c420975aedad0a",
+      "uid": "4fb61203bd02bcc6de2b6b869beae619",
+      "username": "moemarusan"
+    },
+    "merkle_root": {
+      "ctime": 1593341602,
+      "hash": "66b8156492940886dd517671c726b54b77132138879575c487b161be4ae70ec034105757cc3e33d993bcddad879ed20a10d719a7ad306facbc580ce93a209e3b",
+      "hash_meta": "8436fa459ae4120230849bbf3abd0f5f53263f654779b6101dad529f0ba3cf4e",
+      "seqno": 16799472
+    },
+    "service": {
+      "entropy": "yQlgW0dIDfvsVGN5sZzrlAh0",
+      "hostname": "moemarusan.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1593341622,
+  "expire_in": 504576000,
+  "prev": "5ce1e700c60127709b9947334e852b53327dbbddd15af39f9ddcf318a4f092cc",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg1RxcwykrJ+nDSs1axyXIbTdrxunpV1kEtHnEIJda7a0Kp3BheWxvYWTESpcCCsQgXOHnAMYBJ3CbmUczToUrUzJ9u93RWvOfndzzGKTwkszEILv+i0pnJLfHnNRJqMWPVJ4O7ajIPrs+lbJFIuNl2L0rAgHCo3NpZ8RALCXRzDqmdS90UhHitqT1xWFDcH2ycYO7ONSfB8RkyPIrt8RjsXXHSNcLFpphZSs/Vc+nsRgSNULjIMi4pdqRAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJO68tZMaoh05dU2y03p+KRzU/oG9KEU1RMLBdXCThboo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/moemarusan
+
+==================================================================
