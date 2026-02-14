@@ -1,4 +1,3 @@
-/* Global styles from src/index.css */
 :root {
     --bg-color: #ffffff;
     --text-color: #000000;
@@ -24,39 +23,40 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Styles from src/App.css */
-.App {
+.container {
     max-width: 96rem;
     padding: 2rem;
     color: var(--text-color);
 }
 
-img {
-    height: 60px;
-}
-
-p {
+p,
+h1 {
     margin: 0;
 }
 
-.style_l {
+.hero-title {
     font-weight: 900;
     font-size: 2.45rem;
     margin-top: 3rem;
+    line-height: 1.6;
 }
 
-.style_l2 {
-    font-weight: 900;
-}
-
-.style_s {
+.hero-description {
     margin-top: 1.5rem;
     max-width: 450px;
     line-height: 1.4;
     font-size: 1.25rem;
 }
 
-.style_s2 {
+.social-nav {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.social-link {
     font-weight: 900;
     text-transform: uppercase;
     padding-top: 0.12em;
@@ -67,13 +67,17 @@ p {
     transition: color 0.2s ease;
 }
 
-.style_s2::before {
-    display: block;
-    content: "";
-    margin-top: 1rem;
+@keyframes link-underline-anim {
+    0% {
+        transform: scaleX(0);
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
 }
 
-.style_s2::after {
+.social-link::after {
     position: absolute;
     background-color: var(--accent-color);
     height: 0.4em;
@@ -83,37 +87,44 @@ p {
     bottom: 0.2em;
     z-index: -1;
     box-sizing: border-box;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: link-underline-anim 0.4s ease-out forwards;
 }
 
-.style_s2:hover {
+.social-link:nth-child(1)::after {
+    animation-delay: 0.1s;
+}
+
+.social-link:nth-child(2)::after {
+    animation-delay: 0.2s;
+}
+
+.social-link:nth-child(3)::after {
+    animation-delay: 0.3s;
+}
+
+.social-link:hover {
     background-color: var(--accent-color);
     color: var(--link-hover-text);
 }
 
-nav {
-    margin-top: 3rem;
-}
-
 @media (min-width: 350px) {
-
-    .style_l,
-    .style_l2 {
+    .hero-title {
         font-size: 2.95rem;
     }
 }
 
 @media (min-width: 35em) {
-
-    .style_l,
-    .style_l2 {
+    .hero-title {
         font-size: 3.35rem;
     }
 
-    .style_s {
+    .hero-description {
         font-size: 1.35rem;
     }
 
-    .style_s2 {
+    .social-link {
         font-size: 1.8rem;
     }
 }
