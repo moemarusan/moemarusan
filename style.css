@@ -7,8 +7,9 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg-color: #0b1021;
-        --text-color: #fffdd0;
+        --bg-color: #0C2133;
+        --text-color: #ced8de;
+        --accent-color: #FF296D;
     }
 }
 
